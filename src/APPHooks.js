@@ -12,10 +12,10 @@ const AppHook = () => {
     const calculate = () => {
         if (subSelecao === 'G1') {
             setResultadoFim(21 - (score * score))
-            setResultado("A nota na sub" + { setSubFim } + " deverá ser " + { setResultadoFim })
+            setResultado("A nota na sub " +  subFim  + " deverá ser " +  resultadoFim )
         } else {
             setResultadoFim((21 - score) / 2)
-            setResultado("A nota na sub" + { setSubFim } + " deverá ser " + { setResultadoFim })
+            setResultado("A nota na sub " +  subFim  + " deverá ser " +  resultadoFim )
         }
     }
 
